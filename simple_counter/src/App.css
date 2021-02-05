@@ -4,19 +4,19 @@
 }
 
 .container {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(27, 27, 27);
     color: white;
     padding: 8px;
 }
 
 .col {
     color: white;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(39, 39, 39);
     border-radius: 10px;
     margin: 10px;
     padding-top: 10px;
-    border-left: 3px solid rgb(24, 23, 23);
-    border-right: 3px solid rgb(24, 23, 23);
+    border-left: 3px solid rgb(54, 54, 54);
+    border-right: 3px solid rgb(54, 54, 54);
 }
 
 .row {
