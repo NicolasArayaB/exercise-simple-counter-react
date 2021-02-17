@@ -9,10 +9,10 @@ function App() {
         <Container>
             <Row>
                 <Col><h1><i className="far fa-clock" /></h1></Col>
-                <Col><SecondsCounter multiplier="10000000" /></Col>
-                <Col><SecondsCounter multiplier="1000000" /></Col>
-                <Col><SecondsCounter multiplier="100000" /></Col>
-                <Col><SecondsCounter multiplier="10000" /></Col>
+                <Col><SecondsCounter multiplier="10065000" /></Col>
+                <Col><SecondsCounter multiplier="1006500" /></Col>
+                <Col><SecondsCounter multiplier="100650" /></Col>
+                <Col><SecondsCounter multiplier="10065" /></Col>
                 <Col><SecondsCounter multiplier="1000" /></Col>
             </Row>
         </Container>
