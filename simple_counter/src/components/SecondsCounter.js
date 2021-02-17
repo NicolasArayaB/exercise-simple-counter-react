@@ -9,12 +9,8 @@ const SecondsCounter = (props) => {
         }, props.multiplier);
         return () => clearInterval(num);
     });
-    
-    if (seconds < 10){
-        return <h1>{seconds}</h1>;
-    }else if (seconds >= 10){
-        return <SecondsCounter multiplier={props.multiplier}/>
-    }    
+
+    return seconds < 10 ? <h1>{seconds}</h1> : setSeconds(0)
 }
 
 export default SecondsCounter;
